@@ -43,7 +43,7 @@ export default () => {
 | params | type | default | default |
 | --- | --- | --- | --- |
 | verbose | `boolean` | `true` | Whether to output the compressed result in the console |
-| filter | `RegExp or (file: string) => boolean` | `DefaultFilter` | Specify which resources are not compressed |
+| filter | `RegExp or (file: string) => boolean` | `DefaultFilter` | Specify which resources are compressed |
 | disable | `boolean` | `false` | Whether to disable |
 | threshold | `number` | `1025` | It will be compressed if the volume is larger than threshold, the unit is b |
 | algorithm | `string` | `gzip` | Compression algorithm, optional ['gzip','brotliCompress' ,'deflate','deflateRaw'] |
